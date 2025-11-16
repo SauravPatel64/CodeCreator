@@ -221,7 +221,7 @@ IMPORTANT:
             }}
           />
 <br />
-          <p className='text-[15px] font-[700] mt-5'>Describe your component</p>
+          <p className='text-[15px]  mt-5'>Describe your component</p>
           <textarea
             onChange={(e) => setPrompt(e.target.value)}
             value={prompt}
