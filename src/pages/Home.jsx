@@ -225,7 +225,7 @@ IMPORTANT:
           <textarea
             onChange={(e) => setPrompt(e.target.value)}
             value={prompt}
-            className='w-full h-[500px] rounded-xl bg-[#09090B] mt-3 p-3 text-white outline-none'
+            className='w-full min-h-[200px] rounded-xl bg-[#09090B] mt-3 p-3 text-white outline-none'
             placeholder="Describe your component in detail..."
           ></textarea>
 
