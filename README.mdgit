@@ -1,0 +1,19 @@
+# CodeCreator
+initgit
+add
+README.mdgit
+commit
+-m
+first commit
+git
+branch
+-M
+maingit
+remote
+add
+origin
+https://github.com/SauravPatel64/CodeCreator.gitgit
+push
+-u
+origin
+main
