@@ -1,4 +1,5 @@
 {
+  "homepage":"https://github.com/SauravPatel64/CODE-Creator.git",
   "name": "ai-com-gen",
   "private": true,
   "version": "0.0.0",
@@ -7,12 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@google/genai": "^1.29.1",
     "@monaco-editor/react": "^4.7.0",
     "@tailwindcss/vite": "^4.1.17",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
